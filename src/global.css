@@ -1,0 +1,10 @@
+/* Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Playball&family=Poppins:wght@300&family=Roboto:wght@300;500;900&display=swap');
+
+/* /* RESET CSS DEFAULT STYLE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
