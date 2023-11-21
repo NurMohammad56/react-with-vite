@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
+import LoginLogout from "./logInLogOut";
+
 const Navbar = () => {
-  const loggedIN = true;
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setLoggedIn(!loggedIn);
+  };
   return (
     <nav>
       <div className="">MR. NUR</div>
-      <div className="">
-        {loggedIN ? (
-          <div className="profile-icon"></div>
-        ) : (
-          <button>Login</button>
-        )}
-      </div>
+      <LoginLogout loggedIn={loggedIn} handleClick={handleLogin} />
     </nav>
   );
 };

@@ -15,4 +15,6 @@ nav {
     border: 1px solid lightgrey;
     border-radius: 50%;
     background: lightblue;
+    cursor: pointer;
 }
+
