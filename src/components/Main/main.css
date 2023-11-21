@@ -1,0 +1,4 @@
+main {
+    height: calc(100vh - 60px);
+    background: rgba(173, 216, 230, 0.691);
+}

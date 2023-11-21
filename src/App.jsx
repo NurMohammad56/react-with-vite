@@ -1,11 +1,12 @@
 import { Fragment } from "react";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <Fragment>
-    <h1>This is my first react project</h1>
-  </Fragment>
-  )
-  
+      <Home />
+    </Fragment>
+  );
 }
 
 export default App;

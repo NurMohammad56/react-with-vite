@@ -1,0 +1,18 @@
+nav {
+    height: 60px;
+    box-shadow: 0 3px 5px lightgray;
+    background: rgb(143, 189, 205);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.profile-icon{
+    height: 35px;
+    width: 35px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    background: lightblue;
+}
